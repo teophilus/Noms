@@ -11,8 +11,16 @@
 		var button = document.getElementById("button1");
 		var myarray = ["Jamaican", "Longhorn", "Sushi", "Fried Food Federation", "Wendys", "Hot Diggidy Dogs", "Siam Rice", "Laspada's", "Rustic Inn", "Las Vegas", "Roti"];
 
+		// Remove that sweet sausage if today is Monday - JMR
+		var index = myarray.indexOf('Hot Diggidy Dogs');
+		var currentDate = new Date();
+		var currentDay = currentDate.getDay();
+		if (index > -1 && currentDay == 1) {
+    		myarray.splice(index, 1);
+		}// end dat flacid sweet sausage yank 8~~~
+
 		button.onclick = function() {
-		    alert(myarray[Math.floor(Math.random() * myarray.length)]);
+			alert(myarray[Math.floor(Math.random() * myarray.length)]);
 		};
 	</script>
 </body>
