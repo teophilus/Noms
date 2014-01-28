@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Noms 1000</title>			
+</head>
+<body>
+	<button style="position:absolute; top:45%; left:45%; font-size:36px; cursor:pointer;" id="button1">NOM!</button>
+	<h1></h1>
+	<script type="text/javascript">
+		var button = document.getElementById("button1");
+		var myarray = ["Jamaican", "Longhorn", "Sushi", "Fried Food Federation", "Wendys", "Hot Diggidy Dogs", "Siam Rice", "Laspada's", "Rustic Inn", "Las Vegas", "Roti"];
+
+		button.onclick = function() {
+		    alert(myarray[Math.floor(Math.random() * myarray.length)]);
+		};
+	</script>
+</body>
+</html>
