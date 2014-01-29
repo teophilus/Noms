@@ -13,6 +13,6 @@
      "saturday": "true",
      "sunday": "true"
  	}
-"contact" {
+"contact": {
 	"phoneNumber": "(555) 555-5555"
 }
