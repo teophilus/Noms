@@ -1,0 +1,18 @@
+"title": "Chipotle",
+"type": {
+     "fastFood": "true",
+     "dineIn": "true",
+     "delivery": "false"
+},
+"open": {
+     "monday": "true",
+     "tuesday": "true",
+     "wednesday": "true",
+     "thursday": "true",
+     "friday": "true",
+     "saturday": "true",
+     "sunday": "true"
+ 	}
+"contact" {
+	"phoneNumber": "(555) 555-5555"
+}
